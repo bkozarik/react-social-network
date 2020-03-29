@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(90, 161, 199);
+    padding: 25px 10px 10px 10px;
+    max-height: 520px;
+}
+nav a {
+    color: #ffffff;
+    font-size: 20px;
+}
+nav span {
+    padding-bottom: 15px;
+}
+.settings {
+    padding-top: 25px;
+}
+.settings a {
+    font-weight: 700;;
+}
+.active__page {
+    color: #4d4d4d;
+}

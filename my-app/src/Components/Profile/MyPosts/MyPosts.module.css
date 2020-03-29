@@ -1,0 +1,41 @@
+.posts button {
+    font-size: 18px;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    background-color: rgb(90, 161, 199);
+    color: #ffffff;
+    max-height: 50px;
+}
+.posts textarea {
+    resize: none;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    padding: 20px;
+}
+.add__post__right {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.add__post__right input {
+    margin-bottom: 20px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+}
+.add__post__right .file {
+    font-size: 10px;
+    width: 100%;
+} 
+.add__post {
+    display: flex;
+    max-width: 550px;
+    margin-top: 20px;
+    align-items: flex-start;
+}

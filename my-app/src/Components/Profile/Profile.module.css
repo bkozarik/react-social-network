@@ -1,0 +1,33 @@
+.profile__item {
+    display: flex;
+}
+.avatar img {
+    height: 150px;
+}
+.profile__bg {
+    height: 165px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.profile__bg img {
+    max-width: 100%;
+}
+
+.profile__data {
+    margin-left: 25px;
+}
+.name {
+    padding-bottom: 15px;
+}
+.name p {
+    font-size: 23px !important;
+}
+.data__item p {
+    color: #4d4d4d;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 150%;
+}
+.data__item span {
+    color: #000000;
+}

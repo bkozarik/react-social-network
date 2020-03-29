@@ -1,0 +1,33 @@
+.post__item {
+    max-width: 550px;
+    background: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+.post__img {
+    max-width: 100%;
+    max-height: 250px;
+    overflow: hidden;
+}
+.post__action {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 10px 0;
+}
+.post__action div img {
+    max-width: 30px;
+}
+.post__action div {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.post__action div img {
+    padding-right: 10px;
+}
+.post__title {
+    padding-bottom: 20px;
+}
