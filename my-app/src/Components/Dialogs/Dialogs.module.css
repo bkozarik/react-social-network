@@ -1,0 +1,41 @@
+.dialogs {
+    display: flex;
+    margin-top: 20px;
+}
+.persons {
+    height: 400px;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.add_message {
+    display: flex;
+    margin-top: 10px;
+}
+.add_message input {
+    width: 80%;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 20px 30px;
+}
+.add_message button {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding: 20px 30px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 5px;
+    width: 20%;
+}
+.chat {
+    width: 80%;
+    margin-left: 20px;
+}
+.chat_wrapper {
+    overflow: scroll;
+    height: 400px;
+    background: #ffffff;
+}

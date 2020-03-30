@@ -1,0 +1,14 @@
+
+.person {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    padding: 15px 30px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+.person img {
+    width: 40px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
